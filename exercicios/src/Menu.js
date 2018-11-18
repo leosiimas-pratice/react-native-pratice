@@ -6,9 +6,12 @@ import ParImpar from './componentes/ParImpar'
 import {Inverter, MegaSena} from './componentes/Multi'
 import Contador from './componentes/Contador'
 import ValidarProps from './componentes/ValidarProps'
-
+import Eventos from './componentes/Eventos'
 
 export default createDrawerNavigator({
+    Eventos:{
+        screen: Eventos
+    },
     Validar: {
         screen: () => <ValidarProps ano={18}/>,
         navigationOptions: {title: 'Validar'}
