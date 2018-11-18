@@ -7,9 +7,14 @@ import {Inverter, MegaSena} from './componentes/Multi'
 import Contador from './componentes/Contador'
 import ValidarProps from './componentes/ValidarProps'
 import Eventos from './componentes/Eventos'
-import {Avo} from './componentes/ComunicasaoDireta'
+import {Avo} from './componentes/ComunicacaoDireta'
+import {TextoSincronizado} from './componentes/ComunicacaoIndireta'
 
 export default createDrawerNavigator({
+    TextoSincronizado:{
+        screen: TextoSincronizado,
+        navigationOptions: {title: 'Texto Sincronizado'}
+    },
     Avo:{
         screen: () => <Avo nome="João" sobrenome="Silva"></Avo>
     },
