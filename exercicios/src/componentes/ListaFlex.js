@@ -32,6 +32,21 @@ const itemEstilo = {
     backgroundColor: '#DDD',
     borderWidth: 0.5,
     borderColor: '#222',
+    
+    //Flex
+    //allignItems - alinhamento no cross axis
+    //alignItems: 'flex-end',
+    //alignItems: 'flex-start',
+    alignItems: 'center',
+    //justifyContent - alinhamento no main axis
+    //justifyContent:'center',
+    //justifyContent:'flex-end',
+    //justifyContent:'flex-start',
+    //justifyContent:'space-between',
+    //justifyContent:'space-around',
+
+    flexDirection: 'row', //Main axis agora é row nao mais a coluna
+    justifyContent:'space-between',
 }
 
 export const Aluno = props =>
