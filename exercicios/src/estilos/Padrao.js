@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
     ex:{
-        width: 200,
+        width: 350,
         paddingHorizontal: 15,
         marginVertical: 15,
         borderRadius: 10,

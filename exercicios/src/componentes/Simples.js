@@ -4,6 +4,6 @@ import Padrao from '../estilos/Padrao'
 
 export default props =>
     <View>
-        <Text style={[Padrao.ex]}>{props.texto}</Text>
+        <Text style={Padrao.ex}>{props.texto}</Text>
     </View>
     
