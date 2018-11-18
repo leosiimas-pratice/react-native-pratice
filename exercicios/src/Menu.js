@@ -7,8 +7,12 @@ import {Inverter, MegaSena} from './componentes/Multi'
 import Contador from './componentes/Contador'
 import ValidarProps from './componentes/ValidarProps'
 import Eventos from './componentes/Eventos'
+import {Avo} from './componentes/ComunicasaoDireta'
 
 export default createDrawerNavigator({
+    Avo:{
+        screen: () => <Avo nome="João" sobrenome="Silva"></Avo>
+    },
     Eventos:{
         screen: Eventos
     },
